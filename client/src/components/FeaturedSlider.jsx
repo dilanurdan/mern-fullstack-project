@@ -34,7 +34,16 @@ function FeaturedSlider({ courses }) {
       <button className="nav prev" onClick={prevSlide}>‹</button>
 
       <div className="slide">
-        <img src={course.image} alt={course.title} />
+        <img 
+          src={
+            course.image.startsWith("http")
+              ? course.image
+              : course.image.startsWith("/")
+              ? course.image
+              : `/${course.image}`
+          } 
+          alt={course.title} 
+        />
         <div className="content">
           <h2>{course.title}</h2>
           <p>{course.description}</p>
