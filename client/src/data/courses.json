@@ -1,0 +1,360 @@
+[
+  {
+    "title": "React ile Web Geliştirme",
+    "description": "Sıfırdan React öğrenerek modern web uygulamaları geliştirin.",
+    "image": "/src/assets/ReactKursu.jpg",
+    "instructor": "Ahmet Yılmaz",
+    "instructorTitle": "Senior Frontend Developer",
+    "instructorImage": "https://randomuser.me/api/portraits/men/1.jpg",
+    "category": "Yazılım",
+    "level": "Başlangıç",
+    "price": 0,
+    "rating": 4.6,
+    "reviewCount": 12,
+    "studentCount": 320,
+    "duration": "12 Saat",
+    "lessonCount": 24,
+    "lessons": [
+      { "title": "Giriş" }, { "title": "JSX" }, { "title": "Props" }, { "title": "State" }, { "title": "Hooks" },
+      { "title": "useEffect" }, { "title": "Context API" }, { "title": "React Router" }, { "title": "Axios" }, { "title": "Formik" },
+      { "title": "Redux" }, { "title": "Toolkit" }, { "title": "Testing" }, { "title": "Deployment" }, { "title": "Next.js Giriş" },
+      { "title": "SSR vs CSR" }, { "title": "Tailwind" }, { "title": "MUI" }, { "title": "Performance" }, { "title": "Memo" },
+      { "title": "Callback" }, { "title": "Custom Hooks" }, { "title": "Final Projesi" }, { "title": "Kapanış" }
+    ],
+    "curriculum": [
+      { "section": "React Temelleri", "lessons": ["JSX", "Component", "Props", "State", "Hooklar"] },
+      { "section": "İleri Konular", "lessons": ["Router", "Context", "Performans", "Best Practice", "Deploy"] },
+      { "section": "Proje", "lessons": ["Kurulum", "Kodlama", "Test", "Build", "Yayınlama"] }
+    ],
+    "reviews": [
+      { "user": "Mehmet", "rating": 5, "comment": "Çok faydalı", "date": "2025-01-01" },
+      { "user": "Ayşe", "rating": 4, "comment": "Anlaşılır", "date": "2025-01-02" },
+      { "user": "Can", "rating": 5, "comment": "Harika", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Python Programlamaya Giriş",
+    "description": "Python temellerini öğrenerek programlama dünyasına adım atın.",
+    "image": "/src/assets/pythonkurs.png",
+    "instructor": "Ayşe Demir",
+    "instructorTitle": "Data Scientist",
+    "instructorImage": "https://randomuser.me/api/portraits/women/2.jpg",
+    "category": "Yazılım",
+    "level": "Başlangıç",
+    "price": 0,
+    "rating": 4.8,
+    "reviewCount": 18,
+    "studentCount": 540,
+    "duration": "10 Saat",
+    "lessonCount": 20,
+    "lessons": [
+      { "title": "Kurulum" }, { "title": "Değişkenler" }, { "title": "Döngüler" }, { "title": "Fonksiyonlar" }, { "title": "Listeler" },
+      { "title": "Sözlükler" }, { "title": "Tuple" }, { "title": "Set" }, { "title": "Dosya İşlemleri" }, { "title": "Hata Yönetimi" },
+      { "title": "Modüller" }, { "title": "Pip" }, { "title": "VirtualEnv" }, { "title": "OOP" }, { "title": "Decorators" },
+      { "title": "Iterators" }, { "title": "Generators" }, { "title": "Regex" }, { "title": "Datetime" }, { "title": "Final" }
+    ],
+    "curriculum": [
+      { "section": "Python Temelleri", "lessons": ["Değişkenler", "Koşullar", "Döngüler", "Fonksiyonlar", "Listeler"] },
+      { "section": "Veri Yapıları", "lessons": ["Tuple", "Set", "Dict", "String", "Dosyalar"] },
+      { "section": "Uygulama", "lessons": ["Mini Proje", "Hata Ayıklama", "Test", "Optimizasyon", "Teslim"] }
+    ],
+    "reviews": [
+      { "user": "Ali", "rating": 5, "comment": "Çok iyi", "date": "2025-01-01" },
+      { "user": "Zeynep", "rating": 5, "comment": "Efsane", "date": "2025-01-02" },
+      { "user": "Mert", "rating": 4, "comment": "Başarılı", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Java OOP Masterclass",
+    "description": "Nesne tabanlı programlama öğrenerek profesyonel yapılar kurun.",
+    "image": "/src/assets/javakursoop.png",
+    "instructor": "Mehmet Kaya",
+    "instructorTitle": "Software Architect",
+    "instructorImage": "https://randomuser.me/api/portraits/men/3.jpg",
+    "category": "Yazılım",
+    "level": "Orta",
+    "price": 0,
+    "rating": 4.7,
+    "reviewCount": 22,
+    "studentCount": 410,
+    "duration": "14 Saat",
+    "lessonCount": 10,
+    "lessons": [
+      { "title": "Class & Object" }, { "title": "Encapsulation" }, { "title": "Inheritance" }, { "title": "Polymorphism" }, { "title": "Abstraction" },
+      { "title": "Interfaces" }, { "title": "Collections" }, { "title": "Generics" }, { "title": "Exception Handling" }, { "title": "Threads" }
+    ],
+    "curriculum": [
+      { "section": "OOP Temelleri", "lessons": ["Class", "Object", "Encapsulation", "Inheritance", "Polymorphism"] },
+      { "section": "İleri OOP", "lessons": ["Abstract", "Interface", "Exception", "Collections", "Generics"] },
+      { "section": "Proje", "lessons": ["Analiz", "Kodlama", "Test", "Refactor", "Sunum"] }
+    ],
+    "reviews": [
+      { "user": "Burak", "rating": 5, "comment": "Çok detaylı", "date": "2025-01-01" },
+      { "user": "Elif", "rating": 4, "comment": "Güzel", "date": "2025-01-02" },
+      { "user": "Deniz", "rating": 5, "comment": "Tavsiye ederim", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "UI/UX Tasarım Temelleri",
+    "description": "Kullanıcı odaklı tasarımın tüm süreçlerini keşfedin.",
+    "image": "/src/assets/uıkursu.png",
+    "instructor": "Selin Arslan",
+    "instructorTitle": "Senior UX Designer",
+    "instructorImage": "https://randomuser.me/api/portraits/women/4.jpg",
+    "category": "Tasarım",
+    "level": "Başlangıç",
+    "price": 0,
+    "rating": 4.5,
+    "reviewCount": 15,
+    "studentCount": 290,
+    "duration": "8 Saat",
+    "lessonCount": 8,
+    "lessons": [
+      { "title": "UX Nedir?" }, { "title": "User Journey" }, { "title": "Wireframing" }, { "title": "Color Theory" },
+      { "title": "Typography" }, { "title": "Prototyping" }, { "title": "User Testing" }, { "title": "Design Systems" }
+    ],
+    "curriculum": [
+      { "section": "UX", "lessons": ["Kullanıcı", "Persona", "Akış", "Wireframe", "Test"] },
+      { "section": "UI", "lessons": ["Renk", "Tipografi", "Grid", "Component", "Responsive"] },
+      { "section": "Proje", "lessons": ["Figma", "Mockup", "Feedback", "Düzenleme", "Teslim"] }
+    ],
+    "reviews": [
+      { "user": "Ece", "rating": 5, "comment": "Çok iyi", "date": "2025-01-01" },
+      { "user": "Okan", "rating": 4, "comment": "Başarılı", "date": "2025-01-02" },
+      { "user": "Seda", "rating": 5, "comment": "Bayıldım", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Photoshop ile Grafik Tasarım",
+    "description": "Photoshop'u sıfırdan profesyonel seviyeye kadar öğrenin.",
+    "image": "/src/assets/pslogo.jpg",
+    "instructor": "Eren Koç",
+    "instructorTitle": "Graphic Design Expert",
+    "instructorImage": "https://randomuser.me/api/portraits/men/5.jpg",
+    "category": "Tasarım",
+    "level": "Orta",
+    "price": 0,
+    "rating": 4.4,
+    "reviewCount": 10,
+    "studentCount": 180,
+    "duration": "9 Saat",
+    "lessonCount": 6,
+    "lessons": [
+      { "title": "Arayüz" }, { "title": "Katmanlar" }, { "title": "Maskeleme" }, { "title": "Filtreler" }, { "title": "Retouch" }, { "title": "Export" }
+    ],
+    "curriculum": [
+      { "section": "Temel Araçlar", "lessons": ["Katmanlar", "Maske", "Fırça", "Seçim", "Metin"] },
+      { "section": "Düzenleme", "lessons": ["Renk", "Işık", "Efekt", "Retouch", "Filtre"] },
+      { "section": "Uygulama", "lessons": ["Afiş", "Banner", "Sosyal Medya", "Mockup", "Export"] }
+    ],
+    "reviews": [
+      { "user": "Kazım", "rating": 3, "comment": "Fena Değil", "date": "2025-01-01" },
+      { "user": "Aslıhan", "rating": 5, "comment": "Çok öğretici", "date": "2025-01-02" },
+      { "user": "Burak", "rating": 5, "comment": "Faydalı", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Dijital Pazarlama 101",
+    "description": "Pazarlamanın temellerini ve dijital stratejileri öğrenin.",
+    "image": "/src/assets/DP101-kursu.png",
+    "instructor": "Merve Akın",
+    "instructorTitle": "Marketing Strategist",
+    "instructorImage": "https://randomuser.me/api/portraits/women/6.jpg",
+    "category": "İş",
+    "level": "Başlangıç",
+    "price": 0,
+    "rating": 4.3,
+    "reviewCount": 14,
+    "studentCount": 260,
+    "duration": "7 Saat",
+    "lessonCount": 5,
+    "lessons": [
+      { "title": "SEO" }, { "title": "Google Ads" }, { "title": "Meta Ads" }, { "title": "İçerik Pazarlama" }, { "title": "Analitik" }
+    ],
+    "curriculum": [
+      { "section": "Temel Kavramlar", "lessons": ["SEO", "SEM", "Sosyal Medya", "İçerik", "Analitik"] },
+      { "section": "Uygulama", "lessons": ["Google Ads", "Meta Ads", "Planlama", "Bütçe", "Rapor"] },
+      { "section": "Strateji", "lessons": ["Hedef", "Kampanya", "Optimizasyon", "Analiz", "Sunum"] }
+    ],
+    "reviews": [
+      { "user": "Fatma", "rating": 4, "comment": "Güzel", "date": "2025-01-01" },
+      { "user": "Umut", "rating": 5, "comment": "Faydalı", "date": "2025-01-02" },
+      { "user": "Cem", "rating": 4, "comment": "Başarılı", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Girişimcilik ve Startup",
+    "description": "Kendi işinizi kurma sürecinde size yol gösterecek rehber.",
+    "image": "/src/assets/startup.jpg",
+    "instructor": "Onur Çetin",
+    "instructorTitle": "Entrepreneurship Coach",
+    "instructorImage": "https://randomuser.me/api/portraits/men/7.jpg",
+    "category": "İş",
+    "level": "Orta",
+    "price": 0,
+    "rating": 4.6,
+    "reviewCount": 17,
+    "studentCount": 300,
+    "duration": "11 Saat",
+    "lessonCount": 6,
+    "lessons": [
+      { "title": "Problem Analizi" }, { "title": "Pazar Araştırması" }, { "title": "MVP" }, { "title": "Yatırım" }, { "title": "Scale-up" }, { "title": "Exit" }
+    ],
+    "curriculum": [
+      { "section": "Fikir", "lessons": ["Problem", "Çözüm", "Pazar", "Rakip", "Doğrulama"] },
+      { "section": "Kurulum", "lessons": ["Ekip", "Finans", "Hukuk", "Ürün", "MVP"] },
+      { "section": "Büyüme", "lessons": ["Pazarlama", "Satış", "Yatırım", "Ölçekleme", "Exit"] }
+    ],
+    "reviews": [
+      { "user": "Tolga", "rating": 5, "comment": "Efsane", "date": "2025-01-01" },
+      { "user": "Melis", "rating": 4, "comment": "Güzel", "date": "2025-01-02" },
+      { "user": "Hakan", "rating": 5, "comment": "Çok iyi", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Zaman Yönetimi",
+    "description": "Verimli çalışma teknikleri ile gününüzü optimize edin.",
+    "image": "/src/assets/ZamanYönetimiKursu.jpg",
+    "instructor": "Derya Yıldız",
+    "instructorTitle": "Productivity Consultant",
+    "instructorImage": "https://randomuser.me/api/portraits/women/8.jpg",
+    "category": "Kişisel Gelişim",
+    "level": "Başlangıç",
+    "price": 0,
+    "rating": 4.2,
+    "reviewCount": 11,
+    "studentCount": 210,
+    "duration": "6 Saat",
+    "lessonCount": 4,
+    "lessons": [
+      { "title": "Öncelikler" }, { "title": "Pomodoro" }, { "title": "Alışkanlıklar" }, { "title": "Verim Takibi" }
+    ],
+    "curriculum": [
+      { "section": "Planlama", "lessons": ["Hedef", "Öncelik", "Ajanda", "Takip", "Disiplin"] },
+      { "section": "Uygulama", "lessons": ["Pomodoro", "Odak", "Motivasyon", "Alışkanlık", "Takip"] },
+      { "section": "Gelişim", "lessons": ["Analiz", "İyileştirme", "Tekrar", "Verim", "Sürdürülebilirlik"] }
+    ],
+    "reviews": [
+      { "user": "Esma", "rating": 4, "comment": "Faydalı", "date": "2025-01-01" },
+      { "user": "Beliz", "rating": 5, "comment": "Çok iyi", "date": "2025-01-02" },
+      { "user": "Arda", "rating": 4, "comment": "İşe yarıyor", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Etkili İletişim Becerileri",
+    "description": "İletişimde ustalaşarak kariyerinizde ve sosyal hayatınızda fark yaratın.",
+    "image": "/src/assets/EtkiliİletişimKursu.png",
+    "instructor": "Serkan Taş",
+    "instructorTitle": "Communication Specialist",
+    "instructorImage": "https://randomuser.me/api/portraits/men/9.jpg",
+    "category": "Kişisel Gelişim",
+    "level": "Orta",
+    "price": 0,
+    "rating": 4.0,
+    "reviewCount": 13,
+    "studentCount": 240,
+    "duration": "7 Saat",
+    "lessonCount": 4,
+    "lessons": [
+      { "title": "Aktif Dinleme" }, { "title": "Beden Dili" }, { "title": "Empati" }, { "title": "Topluluk Önünde Konuşma" }
+    ],
+    "curriculum": [
+      { "section": "Temel", "lessons": ["Dinleme", "Empati", "Beden Dili", "Tonlama", "Netlik"] },
+      { "section": "Uygulama", "lessons": ["Sunum", "Toplantı", "Geri Bildirim", "İkna", "Çözüm"] },
+      { "section": "Gelişim", "lessons": ["Pratik", "Analiz", "Gelişim", "Takip", "İleri Seviye"] }
+    ],
+    "reviews": [
+      { "user": "Ceren", "rating": 2, "comment": "Beğenmedim", "date": "2025-01-01" },
+      { "user": "Erdem", "rating": 5, "comment": "İyi", "date": "2025-01-02" },
+      { "user": "İrem", "rating": 5, "comment": "Güzel", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "İleri React Teknikleri",
+    "description": "React performans ve optimizasyon konularında uzmanlaşın.",
+    "image": "/src/assets/IleriReactTeknikleriKurs.png",
+    "instructor": "Atilla Yıldız",
+    "instructorTitle": "Full Stack Architect",
+    "instructorImage": "https://randomuser.me/api/portraits/men/10.jpg",
+    "category": "Yazılım",
+    "level": "İleri",
+    "price": 0,
+    "rating": 4.9,
+    "reviewCount": 25,
+    "studentCount": 380,
+    "duration": "15 Saat",
+    "lessonCount": 8,
+    "lessons": [
+      { "title": "Fiber Architecture" }, { "title": "Concurrent UI" }, { "title": "Server Components" }, { "title": "Profiling" },
+      { "title": "Web Workers" }, { "title": "Virtualization" }, { "title": "Advanced Patterns" }, { "title": "Micro Frontends" }
+    ],
+    "curriculum": [
+      { "section": "Performans", "lessons": ["Memo", "Callback", "Lazy", "Suspense", "Profiler"] },
+      { "section": "Mimari", "lessons": ["Clean Code", "Pattern", "State", "Test", "Deploy"] },
+      { "section": "Proje", "lessons": ["Analiz", "Kodlama", "Optimizasyon", "Test", "Sunum"] }
+    ],
+    "reviews": [
+      { "user": "Vildan", "rating": 5, "comment": "Mükemmel", "date": "2025-01-01" },
+      { "user": "Sare", "rating": 5, "comment": "Üst seviye", "date": "2025-01-02" },
+      { "user": "Okan", "rating": 5, "comment": "Harika", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Figma ile UI Tasarım",
+    "description": "Modern UI tasarım araçlarını ve tekniklerini öğrenin.",
+    "image": "/src/assets/FigmaKursu.png",
+    "instructor": "Sanem Ayvaz",
+    "instructorTitle": "UI Artist & Designer",
+    "instructorImage": "https://randomuser.me/api/portraits/women/11.jpg",
+    "category": "Tasarım",
+    "level": "Orta",
+    "price": 0,
+    "rating": 4.6,
+    "reviewCount": 16,
+    "studentCount": 270,
+    "duration": "9 Saat",
+    "lessonCount": 6,
+    "lessons": [
+      { "title": "Auto Layout" }, { "title": "Variants" }, { "title": "Constraints" }, { "title": "Prototyping" }, { "title": "Plugins" }, { "title": "Collaboration" }
+    ],
+    "curriculum": [
+      { "section": "Figma", "lessons": ["Frame", "Component", "AutoLayout", "Prototype", "Share"] },
+      { "section": "UI", "lessons": ["Renk", "Font", "Spacing", "Responsive", "Test"] },
+      { "section": "Proje", "lessons": ["Mockup", "Revize", "Feedback", "Export", "Sunum"] }
+    ],
+    "reviews": [
+      { "user": "Ela", "rating": 5, "comment": "Çok güzel", "date": "2025-01-01" },
+      { "user": "Batu", "rating": 4, "comment": "Faydalı", "date": "2025-01-02" },
+      { "user": "Pelinay", "rating": 5, "comment": "Bayıldım", "date": "2025-01-03" }
+    ]
+  },
+  {
+    "title": "Kariyer Planlama",
+    "description": "Kariyerinizi profesyonelce yönetin ve hedeflerinize ulaşın.",
+    "image": "/src/assets/KariyerPlanlamaKursu.png",
+    "instructor": "Hasan Sarıhan",
+    "instructorTitle": "HR Director",
+    "instructorImage": "https://randomuser.me/api/portraits/men/12.jpg",
+    "category": "Kişisel Gelişim",
+    "level": "Başlangıç",
+    "price": 0,
+    "rating": 4.1,
+    "reviewCount": 9,
+    "studentCount": 190,
+    "duration": "5 Saat",
+    "lessonCount": 4,
+    "lessons": [
+      { "title": "Strateji" }, { "title": "Networking" }, { "title": "Interview" }, { "title": "Negotiation" }
+    ],
+    "curriculum": [
+      { "section": "Planlama", "lessons": ["Hedef", "CV", "LinkedIn", "Mülakat", "Network"] },
+      { "section": "Gelişim", "lessons": ["Yetkinlik", "Eğitim", "Deneyim", "Takip", "Strateji"] },
+      { "section": "Uygulama", "lessons": ["Analiz", "Revize", "Simülasyon", "Geri Bildirim", "İlerleme"] }
+    ],
+    "reviews": [
+      { "user": "Gamze", "rating": 4, "comment": "Güzel", "date": "2025-01-01" },
+      { "user": "Furkan", "rating": 4, "comment": "Faydalı", "date": "2025-01-02" },
+      { "user": "Leyla", "rating": 5, "comment": "Çok iyi", "date": "2025-01-03" }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+.review {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0 10px 10px;
+  flex-direction: column;
+  gap: 6px;
+
+}
+
+.review p:first-of-type {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+}
+.review strong {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.4px;
+}
+p{
+  font-size: 18px;
+  letter-spacing: 0.4px;
+}

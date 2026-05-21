@@ -1,0 +1,85 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #f7f9fa;
+  padding: 20px;
+}
+
+.auth-form {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-form h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #1c1d1f;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #d1d7dc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; /* Padding'in genişliği bozmasını engeller */
+}
+
+.auth-form input:focus {
+  border-color: #3498db;
+  outline: none;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 15px;
+  background-color: #a435f0; /* Udemy moru */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 10px;
+}
+
+.auth-form button:hover {
+  background-color: #8710d8;
+}
+
+.auth-form p {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #6a6f73;
+}
+
+.auth-form p a {
+  color: #5624d0;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.auth-form p a:hover {
+  text-decoration: underline;
+}
+
+/* Hata Mesajı Stili */
+.error-msg {
+  background-color: #fde8e8;
+  color: #c53030;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  border: 1px solid #f8b4b4;
+}

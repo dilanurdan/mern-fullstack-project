@@ -1,0 +1,38 @@
+.filter-panel {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+  flex-wrap: wrap;
+}
+
+.filter-panel select {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 14px;
+}
+@media (max-width: 1024px) {
+  .filter-panel {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .filter-panel select {
+    font-size: 13px;
+    padding: 7px 12px;
+  }
+}
+
+@media (max-width: 600px) {
+  .filter-panel {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .filter-panel select {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}

@@ -1,0 +1,140 @@
+.profile {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.profile h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* 🔥 Avatar Hizalama Kapsayıcısı */
+.avatar-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Avatar Tasarımı */
+.avatar {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  object-fit: cover;
+  /* 🔥 Çerçeve rengini buton rengiyle (#3498db) uyumlu hale getirip estetiği artırdık */
+  border: 4px solid #3498db; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(34, 152, 219, 0.2);
+}
+
+/* Bilgi Alanı */
+.profile-info {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.profile-info p {
+  background: #f8f9fa;
+  padding: 12px;
+  border-radius: 8px;
+  margin: 10px 0;
+  color: #555;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Form Tasarımı */
+.profile-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  text-align: left;
+}
+
+.profile-form label {
+  font-weight: 600;
+  font-size: 14px;
+  color: #666;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.profile-form input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+
+.profile-form input:focus {
+  border-color: #3498db;
+}
+
+/* 🔥 Email Değiştirilemez (Disabled) Giriş Alanı Tasarımı */
+.profile-form input:disabled {
+  background-color: #f1f3f5;
+  color: #868e96;
+  border-color: #e9ecef;
+  cursor: not-allowed;
+}
+
+/* Butonlar */
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, opacity 0.3s;
+}
+
+.edit-btn, .save-btn {
+  background-color: #3498db;
+  color: white;
+}
+
+.cancel-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.edit-btn {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* 🔥 Yükleniyor Ekranı Tasarımı */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+  margin-top: 100px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}

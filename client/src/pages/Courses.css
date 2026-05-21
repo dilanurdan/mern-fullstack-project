@@ -1,0 +1,93 @@
+.course-detail-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px 50px;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Hero Düzenleme */
+.course-hero {
+  background: #f8f9fa;
+  margin: 0 -20px 40px; /* Kenarları tam kaplasın */
+  padding: 50px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.hero-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.detail-image {
+  width: 100%;       /* Kapsayıcı div'in genişliğini tam doldurur */
+  height: 300px;     /* Sabit bir yükseklik ver */
+  object-fit: cover; /* Resmi bozmadan alanı dolduracak şekilde kırpar */
+  display: block;    /* Gereksiz alt boşlukları siler */
+  border-radius: 12px 0 0 12px; /* Sadece sol köşeleri yuvarlar (eğer yan yanaysa) */
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  margin: 10px 0;
+}
+
+/* Ana Grid Yapısı */
+.course-main-layout {
+  display: grid;
+  grid-template-columns: 1fr 350px; /* Sol geniş, sağ sabit */
+  gap: 50px;
+}
+
+/* Sidebar Tasarımı */
+.course-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.stats-card {
+  background: white;
+  border: 1px solid #d1d7dc;
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.stats-card h4 {
+  margin-top: 0;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.stats-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.stats-card li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #f9f9f9;
+}
+
+/* Başlıklar ve Metinler */
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #1c1d1f;
+}
+
+.about-course p {
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Mobilde tek sütun */
+@media (max-width: 900px) {
+  .hero-inner { flex-direction: column; }
+  .detail-image { width: 100%; }
+  .course-main-layout { grid-template-columns: 1fr; }
+}

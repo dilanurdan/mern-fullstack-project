@@ -1,0 +1,57 @@
+.not-found-container {
+  height: 80vh; /* Sayfayı dikeyde ortalamak için */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.not-found-content {
+  max-width: 500px;
+  padding: 40px;
+}
+
+.error-code {
+  font-size: 10rem;
+  font-weight: 900;
+  color: #3498db; /* Projenin ana rengiyle uyumlu yapabilirsin */
+  margin: 0;
+  line-height: 1;
+  opacity: 0.8;
+}
+
+.not-found-content h2 {
+  font-size: 2rem;
+  color: #1c1d1f;
+  margin: 20px 0 10px;
+}
+
+.not-found-content p {
+  color: #6a737b;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.back-home-btn {
+  background-color: #1c1d1f; /* Udemy koyu gri/siyah butonu gibi */
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.back-home-btn:hover {
+  background-color: #3e4143;
+}
+
+/* Küçük ekranlar için ayar */
+@media (max-width: 600px) {
+  .error-code { font-size: 6rem; }
+  .not-found-content h2 { font-size: 1.5rem; }
+}

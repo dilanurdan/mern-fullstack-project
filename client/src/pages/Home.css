@@ -1,0 +1,76 @@
+.home {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+}
+
+/* Başlıklar */
+.home h1, .home h2 {
+  color: #1c1d1f;
+  font-weight: 700;
+  margin: 40px 0 20px;
+}
+
+.home h1 { font-size: 2rem; }
+.home h2 { font-size: 1.5rem; }
+
+/* Kategori Filtreleme Alanı */
+.category-filter {
+  display: flex;
+  gap: 12px;
+  margin: 30px 0;
+  flex-wrap: wrap;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.category-filter button {
+  padding: 10px 20px;
+  border: 1px solid #1c1d1f;
+  background: white;
+  color: #1c1d1f;
+  border-radius: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.category-filter button:hover {
+  background: #f7f9fa;
+}
+
+.category-filter button.active {
+  background: #1c1d1f;
+  color: white;
+}
+
+/* Kurs Izgarası (Grid) */
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+/* Yükleniyor Ekranı */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #6a6f73;
+}
+
+/* Scrollbar Gizleme (Kategoriler için) */
+.category-filter::-webkit-scrollbar {
+  height: 4px;
+}
+.category-filter::-webkit-scrollbar-thumb {
+  background: #d1d7dc;
+  border-radius: 10px;
+}
