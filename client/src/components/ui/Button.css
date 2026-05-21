@@ -10,10 +10,16 @@
   background-color: #2563eb;
   color: white;
 }
+.btn-primary:hover {
+  background-color: #1d4ed8;
+}
 
 .btn-secondary {
   background-color: #e5e7eb;
   color: #111827;
+}
+.btn-secondary:hover {
+  background-color: #d1d5db;
 }
 
 .btn:disabled {
