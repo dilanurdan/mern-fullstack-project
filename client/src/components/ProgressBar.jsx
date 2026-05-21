@@ -7,7 +7,10 @@ function ProgressBar({ value = 0 }) {
     <div className="progress-container">
       <div
         className="progress-fill"
-        style={{ width: `${safeValue}%` }}
+        style={{
+          width: `${safeValue}%`,
+          transition: "0.3s ease"
+        }}
       >
         {safeValue}%
       </div>
