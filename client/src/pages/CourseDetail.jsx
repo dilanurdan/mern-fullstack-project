@@ -31,7 +31,7 @@ function CourseDetail() {
   const fetchCourse = useCallback(async () => {
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/courses/${id}`
+        `https://mern-fullstack-project-7umo.onrender.com/api/courses/${id}`
       );
       setCourse(res.data);
     } catch (err) {
@@ -59,7 +59,7 @@ function CourseDetail() {
       setIsEnrolling(true);
 
       await axios.post(
-        "http://localhost:5000/api/enrollments",
+        "https://mern-fullstack-project-7umo.onrender.com/api/enrollments",
         { courseId: course._id },
         {
           headers: {

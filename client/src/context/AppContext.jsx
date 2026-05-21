@@ -21,7 +21,7 @@ export const AppProvider = ({ children }) => {
     }
 
     try {
-      const userRes = await axios.get("http://localhost:5000/api/auth/me", {
+      const userRes = await axios.get("https://mern-fullstack-project-7umo.onrender.com/api/auth/me", {
         headers: { Authorization: `Bearer ${token}` },
       });
       setUserData(userRes.data);
@@ -42,7 +42,7 @@ export const AppProvider = ({ children }) => {
       try {
         setLoading(true);
         // Kursları çek
-        const response = await axios.get("http://localhost:5000/api/courses");
+        const response = await axios.get("https://mern-fullstack-project-7umo.onrender.com/api/courses");
         setCourses(response.data);
         
         // Kullanıcıyı kontrol et
@@ -67,7 +67,7 @@ export const AppProvider = ({ children }) => {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/auth/favorite",
+        "https://mern-fullstack-project-7umo.onrender.com/api/auth/favorite",
         { courseId },
         {
           headers: { Authorization: `Bearer ${token}` },

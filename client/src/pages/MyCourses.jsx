@@ -15,7 +15,7 @@ function MyCourses() {
     const fetchMyCourses = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/enrollments",
+          "https://mern-fullstack-project-7umo.onrender.com/api/enrollments",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -46,7 +46,7 @@ function MyCourses() {
 
     try {
       await axios.delete(
-        `http://localhost:5000/api/enrollments/${enrollmentId}`,
+        `https://mern-fullstack-project-7umo.onrender.com/api/enrollments/${enrollmentId}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

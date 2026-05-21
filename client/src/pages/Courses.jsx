@@ -15,7 +15,7 @@ function Courses() {
     const fetchCourses = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/courses"
+          "https://mern-fullstack-project-7umo.onrender.com/api/courses"
         );
         setCourses(response.data);
       } catch (error) {

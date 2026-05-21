@@ -13,7 +13,7 @@ function ReviewList({ courseId, onCommentAdded }) {
     const fetchComments = async () => {
       try {
         const res = await axios.get(
-          `http://localhost:5000/api/comments/${courseId}`
+          `https://mern-fullstack-project-7umo.onrender.com/api/comments/${courseId}`
         );
         setAllReviews(res.data);
       } catch (err) {
@@ -30,7 +30,7 @@ function ReviewList({ courseId, onCommentAdded }) {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/comments",
+        "https://mern-fullstack-project-7umo.onrender.com/api/comments",
         { courseId, content: newComment, rating },
         { headers: { Authorization: `Bearer ${token}` } }
       );

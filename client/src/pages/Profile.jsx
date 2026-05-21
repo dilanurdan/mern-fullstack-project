@@ -10,13 +10,13 @@ function Profile() {
 
   const token = localStorage.getItem("token");
 
-  // 🔥 KİLİT DOKUNUŞ 1: Eğer avatar yoksa ya da kırık linkse gösterilecek varsayılan yedek avatar
+  // Eğer avatar yoksa ya da kırık linkse gösterilecek varsayılan yedek avatar
   const defaultAvatar = `https://api.dicebear.com/7.x/initials/svg?seed=${userData.name || "User"}&backgroundColor=2563eb`;
 
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const res = await axios.get("http://localhost:5000/api/auth/me", {
+        const res = await axios.get("https://mern-fullstack-project-7umo.onrender.com/api/auth/me", {
           headers: { Authorization: `Bearer ${token}` },
         });
 
@@ -38,7 +38,7 @@ function Profile() {
 
     try {
       const res = await axios.put(
-        "http://localhost:5000/api/auth/update",
+        "https://mern-fullstack-project-7umo.onrender.com/api/auth/update",
         form,
         {
           headers: {
