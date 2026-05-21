@@ -15,7 +15,7 @@
   margin-bottom: 25px;
 }
 
-/* 🔥 Avatar Hizalama Kapsayıcısı */
+/* Avatar Hizalama Kapsayıcısı */
 .avatar-wrapper {
   display: flex;
   justify-content: center;
@@ -28,7 +28,6 @@
   height: 95px;
   border-radius: 50%;
   object-fit: cover;
-  /* 🔥 Çerçeve rengini buton rengiyle (#3498db) uyumlu hale getirip estetiği artırdık */
   border: 4px solid #3498db; 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
@@ -47,7 +46,7 @@
 
 .profile-info p {
   background: #f8f9fa;
-  padding: 12px;
+  padding: 15px;
   border-radius: 8px;
   margin: 10px 0;
   color: #555;
@@ -85,7 +84,7 @@
   border-color: #3498db;
 }
 
-/* 🔥 Email Değiştirilemez (Disabled) Giriş Alanı Tasarımı */
+/* Email Değiştirilemez (Disabled) Giriş Alanı Tasarımı */
 .profile-form input:disabled {
   background-color: #f1f3f5;
   color: #868e96;
@@ -129,7 +128,7 @@ button:hover {
   margin-top: 20px;
 }
 
-/* 🔥 Yükleniyor Ekranı Tasarımı */
+/* Yükleniyor Ekranı Tasarımı */
 .loading {
   text-align: center;
   font-size: 18px;
