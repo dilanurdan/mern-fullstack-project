@@ -34,42 +34,32 @@ Geçen dönem geliştirilen istemci arayüzü; bu dönem **Node.js, Express.js v
 
 ## 📂 Proje Klasör Yapısı
 ```text
-
 231201042_DilaNurDAN_BLG331_RumeliLearn/
 │
-├── client/                         # Frontend (İstemci) Katmanı
+├── client/                     # Frontend Katmanı
 │   ├── public/
+│   │   └── assets/             # Resimler (pythonkurs.png, vb.)
 │   ├── src/
-│   │   ├── components/            # Kurs kartları, slider ve filtre bileşenleri
-│   │   │   └── ui/                # Ortak UI Elemanları (Button, Loader, Modal)
-│   │   ├── context/               # AppContext (Global State Yönetimi)
-│   │   ├── data/                  # courses.json veri dosyaları
-│   │   ├── pages/                 # Sayfa bileşenleri
-│   │   └── main.jsx
-│   │
-│   ├── .gitignore
-│   ├── eslint.config.js
+│   │   ├── components/         # Bileşenler
+│   │   │   └── ui/             # Button, Loader, Modal
+│   │   ├── context/            # Global State
+│   │   ├── data/               # Veri dosyaları
+│   │   └── pages/              # Sayfalar (Auth, CourseDetail, vb.)
 │   ├── index.html
-│   ├── package.json
-│   ├── package-lock.json
-│   └── vite.config.js
-│
-├── server/                        # Backend (Sunucu) Katmanı
-│   ├── controllers/               # İş mantığı kontrolörleri
-│   ├── middleware/                # JWT ve hata yönetimi middleware'leri
-│   ├── models/                    # Mongoose modelleri
-│   ├── routes/                    # Express API rotaları
-│   ├── .env
-│   ├── .gitignore
-│   ├── index.js                   # Sunucu başlangıç dosyası
-│   ├── package-lock.json
 │   └── package.json
+│
+├── server/                     # Backend Katmanı
+│   ├── controllers/            # İş mantığı
+│   ├── middleware/             # JWT/Auth işlemleri
+│   ├── models/                 # Veritabanı şemaları (User, Course, vb.)
+│   ├── routes/                 # API Rotaları
+│   ├── .env                    # Ortam değişkenleri
+│   └── index.js                # Sunucu giriş dosyası
 │
 ├── ActivityDiagram.png
 ├── Component(Bileşen)İlişkileri.png
 ├── Use-CaseDiagram.png
 ├── VeritabanıŞemasınıGösteren.png
-│
 └── README.md
 
 ---
@@ -114,7 +104,7 @@ Projeyi yerelde çalıştırabilmek için frontend ve backend bağımlılıklar�
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone https://github.com/DilaNurDAN/RumeliLearn.git
+git clone https://github.com/dilanurdan/mern-fullstack-project.git
 cd RumeliLearn
 ```
 
