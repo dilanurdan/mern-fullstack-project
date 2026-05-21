@@ -32,6 +32,7 @@ Geçen dönem geliştirilen istemci arayüzü; bu dönem **Node.js, Express.js v
 ---
 
 ## 📂 Proje Klasör Yapısı
+```text
 
 231201042_DilaNurDAN_BLG331_RumeliLearn/
 │
