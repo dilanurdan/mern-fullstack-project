@@ -62,8 +62,6 @@ Geçen dönem geliştirilen istemci arayüzü; bu dönem **Node.js, Express.js v
 ├── VeritabanıŞemasınıGösteren.png
 └── README.md
 
----
-
 ## 🧩 Uygulama Özellikleri & CRUD İşlemleri
 
 - **Gelişmiş Kimlik Doğrulama:** JWT tabanlı kayıt olma (Register) ve giriş yapma (Login) sistemleri.
@@ -96,7 +94,6 @@ Uygulama **mobile**, **tablet** ve **desktop** ekranlar için saf CSS breakpoint
 
 ---
 
-
 ## ⚙️ Kurulum ve Çalıştırma Adımları
 
 Projeyi yerelde çalıştırabilmek için frontend ve backend bağımlılıklarının ayrı ayrı kurulması gerekmektedir.
@@ -104,10 +101,8 @@ Projeyi yerelde çalıştırabilmek için frontend ve backend bağımlılıklar�
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone https://github.com/dilanurdan/mern-fullstack-project.git
+git clone [https://github.com/dilanurdan/mern-fullstack-project.git](https://github.com/dilanurdan/mern-fullstack-project.git)
 cd RumeliLearn
-```
-
 ---
 
 ## 🖥️ Sunucu (Backend) Kurulumu
