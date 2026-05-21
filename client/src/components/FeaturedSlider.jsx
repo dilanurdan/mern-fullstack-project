@@ -35,15 +35,15 @@ function FeaturedSlider({ courses }) {
 
       <div className="slide">
         <img 
-          src={
-            course.image.startsWith("http")
-              ? course.image
-              : course.image.startsWith("/")
-              ? course.image
-              : `/${course.image}`
-          } 
-          alt={course.title} 
-        />
+  src={
+    course.image.startsWith("http")
+      ? course.image
+      : course.image.startsWith("/assets/")
+      ? course.image
+      : `/assets/${course.image.startsWith("/") ? course.image.substring(1) : course.image}`
+  } 
+  alt={course.title} 
+/>
         <div className="content">
           <h2>{course.title}</h2>
           <p>{course.description}</p>

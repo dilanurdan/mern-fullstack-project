@@ -126,16 +126,16 @@ function CourseDetail() {
       <div className="course-hero">
         <div className="hero-image-wrapper">
           <img
-            src={
-              course.image.startsWith("http")
-                ? course.image
-                : course.image.startsWith("/")
-                ? course.image
-                : `/${course.image}`
-            }
-            alt={course.title}
-            className="detail-image"
-          />
+  src={
+    course.image.startsWith("http")
+      ? course.image
+      : course.image.startsWith("/assets/")
+      ? course.image
+      : `/assets/${course.image.startsWith("/") ? course.image.substring(1) : course.image}`
+  }
+  alt={course.title}
+  className="detail-image"
+/>
         </div>
 
         <div className="hero-content">

@@ -53,16 +53,18 @@ export default function CourseCard({ course }) {
     <div className="course-card">
       <div className="course-image-wrapper">
         <img
-          src={
-            course.image.startsWith("http")
-              ? course.image
-              : course.image.startsWith("/")
-              ? course.image
-              : `/${course.image}`
-          }
-          alt={course.title}
-          className="course-image"
-        />
+  src={
+    course.image.startsWith("http")
+      ? course.image
+      : course.image.startsWith("/assets/")
+      ? course.image
+      : course.image.startsWith("/")
+      ? `/assets${course.image}`
+      : `/assets/${course.image}`
+  }
+  alt={course.title}
+  className="course-image"
+/>
 
         <div className="course-image-overlay">
     
