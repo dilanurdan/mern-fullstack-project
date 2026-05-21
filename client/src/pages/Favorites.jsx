@@ -9,7 +9,7 @@ function Favorites() {
     toggleFavorite(id);
   };
 
-  // 🎯 KİLİT DÜZELTME 1: favorites dizisindeki ID'lerden sadece 'courses' içinde gerçekten var olanları filtreliyoruz.
+  // favorites dizisindeki ID'lerden sadece 'courses' içinde gerçekten var olanları filtreliyoruz.
   // Böylece veritabanından silinmiş veya havada kalmış hayali ID'ler sayacı kirletemez.
   const validFavorites = favorites ? favorites.filter(id => 
     courses.some(c => c._id?.toString() === id?.toString())
@@ -34,7 +34,7 @@ function Favorites() {
     <div className="favorites">
       <div className="favorites-header">
         <h1>Favori Kurslarım</h1>
-        {/* 🎯 KİLİT DÜZELTME 2: favorites.length yerine sadece ekrana basılacak gerçek kurs sayısını yazıyoruz */}
+        {/* favorites.length yerine sadece ekrana basılacak gerçek kurs sayısını yazıyoruz */}
         <span>{validFavorites.length} Kurs Listeleniyor</span>
       </div>
 
