@@ -108,12 +108,17 @@ function MyCourses() {
           {filteredCourses.map((item) => (
             <div key={item._id} className="my-course-card">
               <img
-                src={
-                  item.course?.image ||
-                  "https://via.placeholder.com/300x180"
-                }
-                alt={item.course?.title || "Kurs"}
-              />
+  src={
+    !item.course?.image 
+      ? "https://via.placeholder.com/300x180" 
+      : item.course.image.startsWith("http")
+      ? item.course.image
+      : item.course.image.startsWith("/assets/")
+      ? item.course.image
+      : `/assets/${item.course.image.startsWith("/") ? item.course.image.substring(1) : item.course.image}`
+  }
+  alt={item.course?.title || "Kurs"}
+/>
 
               <div className="info">
                 <h3>{item.course?.title || "Kurs Başlığı Yok"}</h3>
