@@ -7,7 +7,8 @@ Geçen dönem geliştirilen istemci arayüzü; bu dönem **Node.js, Express.js v
 ---
 
 ## 🚀 Canlı Önizleme & Linkler
-- **Frontend (Client) Canlı Linki:** [Uygulama Linki - Vercel/Netlify](https://your-frontend-link.vercel.app)
+## 🚀 Canlı Önizleme & Linkler
+- **Frontend (Client) Canlı Linki:** [Uygulama Linki - Vercel](https://mern-fullstack-project-sable.vercel.app)
 - **Backend (Server) API Linki:** [API Linki - Render](https://mern-fullstack-project-7umo.onrender.com)
 - **GitHub Deposu:** [Repository Linki](https://github.com/dilanurdan/mern-fullstack-project)
 
