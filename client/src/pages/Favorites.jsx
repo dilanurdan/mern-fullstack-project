@@ -11,9 +11,11 @@ function Favorites() {
 
   // favorites dizisindeki ID'lerden sadece 'courses' içinde gerçekten var olanları filtreliyoruz.
   // Böylece veritabanından silinmiş veya havada kalmış hayali ID'ler sayacı kirletemez.
-  const validFavorites = favorites ? favorites.filter(id => 
-    courses.some(c => c._id?.toString() === id?.toString())
-  ) : [];
+  const validFavorites = favorites
+    ? favorites.filter((id) =>
+        courses.some((c) => c._id?.toString() === id?.toString())
+      )
+    : [];
 
   // Boş kontrolünü taze filtrelenmiş listemize göre yapıyoruz
   if (validFavorites.length === 0) {
@@ -23,6 +25,7 @@ function Favorites() {
         <p>
           Henüz favorilerine bir kurs eklemedin. Yeni şeyler keşfetmeye ne dersin?
         </p>
+
         <Link to="/" className="discover-btn">
           Kursları Keşfet
         </Link>
@@ -34,6 +37,7 @@ function Favorites() {
     <div className="favorites">
       <div className="favorites-header">
         <h1>Favori Kurslarım</h1>
+
         {/* favorites.length yerine sadece ekrana basılacak gerçek kurs sayısını yazıyoruz */}
         <span>{validFavorites.length} Kurs Listeleniyor</span>
       </div>
@@ -49,7 +53,23 @@ function Favorites() {
           return (
             <div key={id} className="favorite-card">
               <div className="card-image">
-                <img src={course.image} alt={course.title} />
+                <img
+                  src={
+                    !course.image
+                      ? "https://via.placeholder.com/300x180"
+                      : course.image.startsWith("http")
+                      ? course.image
+                      : course.image.startsWith("/assets/")
+                      ? course.image
+                      : `/assets/${
+                          course.image.startsWith("/")
+                            ? course.image.substring(1)
+                            : course.image
+                        }`
+                  }
+                  alt={course.title}
+                />
+
                 <span className="category-badge">
                   {course.category}
                 </span>
@@ -60,6 +80,7 @@ function Favorites() {
 
                 <div className="instructor-detail">
                   <p className="name">{course.instructor}</p>
+
                   {course.instructorTitle && (
                     <p className="title">
                       {course.instructorTitle}

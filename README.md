@@ -2,11 +2,12 @@
 
 RumeliLearn, modern web geliştirme mimarisi standartlarına uygun olarak geliştirilmiş, hem sunucu (back-end) hem istemci (front-end) tarafı aktif çalışan, veritabanı destekli ve kimlik doğrulama içeren full-stack bir online eğitim platformudur. 
 
-Geçen dönem geliştirilen istemci arayüzü; bu dönem **Node.js, Express.js ve MongoDB Atlas** entegrasyonu ile tam kapsamlı bir RESTful API ekosistemine dönüştürülmüştür.
+Bu projede React tabanlı kullanıcı arayüzü,
+Node.js, Express.js ve MongoDB Atlas entegrasyonu ile
+tam kapsamlı bir full-stack yapıya dönüştürülmüştür.
 
 ---
 
-## 🚀 Canlı Önizleme & Linkler
 ## 🚀 Canlı Önizleme & Linkler
 - **Frontend (Client) Canlı Linki:** [Uygulama Linki - Vercel](https://mern-fullstack-project-sable.vercel.app)
 - **Backend (Server) API Linki:** [API Linki - Render](https://mern-fullstack-project-7umo.onrender.com)
@@ -106,7 +107,7 @@ Projeyi yerelde çalıştırabilmek için frontend ve backend bağımlılıklar�
 git clone [https://github.com/dilanurdan/mern-fullstack-project.git](https://github.com/dilanurdan/mern-fullstack-project.git)
 cd RumeliLearn
 ---
-
+```
 ## 🖥️ Sunucu (Backend) Kurulumu
 
 Server klasörüne geçiş yapın ve gerekli bağımlılıkları yükleyin:
@@ -160,3 +161,6 @@ http://localhost:5173
 Dila Nur DAN  
 İstanbul Rumeli Üniversitesi  
 Bilgisayar Mühendisliği
+
+## 📄 Lisans
+Bu proje eğitim amaçlı geliştirilmiştir.

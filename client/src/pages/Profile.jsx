@@ -71,11 +71,11 @@ function Profile() {
 
       <div className="avatar-wrapper">
         <img
-          // 🔥 KİLİT DÜZELTME 2: Link tamamen boşsa placeholder yerine şık defaultAvatar'ı basıyoruz
+          // Link tamamen boşsa placeholder yerine şık defaultAvatar'ı basıyoruz
           src={userData.avatar && userData.avatar.trim() !== "" ? userData.avatar : defaultAvatar}
           alt="avatar"
           className="avatar"
-          // 🔥 KİLİT DÜZELTME 3: Link var ama bozuksa/kırıksa anında yakalayıp defaultAvatar'a çeviriyoruz
+          // Link var ama bozuksa/kırıksa anında yakalayıp defaultAvatar'a çeviriyoruz
           onError={(e) => {
             e.target.src = defaultAvatar;
           }}
