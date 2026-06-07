@@ -104,8 +104,10 @@ Projeyi yerelde çalıştırabilmek için frontend ve backend bağımlılıklar�
 ### 1. Depoyu Klonlayın
 
 ```bash
-git clone [https://github.com/dilanurdan/mern-fullstack-project.git](https://github.com/dilanurdan/mern-fullstack-project.git)
-cd RumeliLearn
+git clone https://github.com/dilanurdan/mern-fullstack-project.git
+cd mern-fullstack-project
+```
+
 ---
 ```
 ## 🖥️ Sunucu (Backend) Kurulumu
