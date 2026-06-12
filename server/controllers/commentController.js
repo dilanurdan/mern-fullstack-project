@@ -13,7 +13,7 @@ exports.addComment = async (req, res) => {
       return res.status(401).json({ message: "Yetkisiz işlem" });
     }
 
-    // 1. Yeni Yorumu Kaydet
+    // Yeni Yorumu Kaydet
     const newComment = new Comment({
       course: courseId,
       user: req.user.id,
@@ -24,7 +24,7 @@ exports.addComment = async (req, res) => {
 
     const targetCourseId = new mongoose.Types.ObjectId(courseId);
 
-    // 3. Kursa Ait Tüm Yorumları Getir ve Hesapla
+    // Kursa Ait Tüm Yorumları Getir ve Hesapla
     const allCourseComments = await Comment.find({ course: targetCourseId });
     
     if (allCourseComments.length > 0) {
@@ -32,14 +32,14 @@ exports.addComment = async (req, res) => {
       const totalRating = allCourseComments.reduce((sum, item) => sum + item.rating, 0);
       const averageRating = Number((totalRating / reviewCount).toFixed(1));
 
-      // 4. Kurs Dokümanını Güncelle
+      // Kurs Dokümanını Güncelle
       await Course.findByIdAndUpdate(courseId, {
         rating: averageRating,
         reviewCount: reviewCount
       });
     }
 
-    // 5. İstemciye Saf Nesne Dön
+    // İstemciye Saf Nesne Dön
     const populatedComment = await newComment.populate('user', 'name');
     const responseData = populatedComment.toObject();
 
